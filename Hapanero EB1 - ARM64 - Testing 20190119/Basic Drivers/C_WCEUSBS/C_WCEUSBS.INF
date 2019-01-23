@@ -1,0 +1,6 @@
+age="neutral" version="10.0.14393.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+				<assemblyIdentity name="Microsoft-Windows-EnterpriseSNEvalEdition" language="neutral" version="10.0.14393.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+				<assemblyIdentity name="Microsoft-Windows-PPIProEdition" language="neutral" version="10.0.14393.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+				<assemblyIdentity name="Microsoft-Windows-ProfessionalEdition" language="neutral" version="10.0.14393.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+				<assemblyIdentity name="Microsoft-Windows-ProfessionalNEdition" language="neutral" version="10.0.14393.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+				<assemblyIdentity name="Microsoft-Windows-ServerDatacenterEdition" language="neutral" version="10

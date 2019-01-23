@@ -1,0 +1,3 @@
+Subject: RX-130 EB1.0
+UEFI Version: Extracted from 9879
+PLAT Version: Extracted from 14822

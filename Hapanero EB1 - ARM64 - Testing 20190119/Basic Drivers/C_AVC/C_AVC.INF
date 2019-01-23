@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4284880" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4284880" creationTimeStamp="2018-06-10T11:03:49Z" lastUpdateTimeStamp="2018-06-10T11:03:49Z">
+	<assemblyIdentity name="Package_1863_for_KB4284880" version="10.0.1.14" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB4284880" releaseType="Security Update" restart="possible" psfName="Windows10.0-KB4284880-x64_5.psf">
+		<parent buildCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-OneCore-AppRuntime-WOW64-onecoreuap-Package" language="es-ES" version="10.0.14393.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-Client

@@ -1,0 +1,64 @@
+;
+; QcUart.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class       = Ports
+ClassGuid   = {4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider=%ManufacturerName%
+CatalogFile=qcuart8994.cat
+DriverVer = 01/25/2018,21.11.48.152
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+qcuart8994.sys  = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTarm64
+
+[Standard.NTarm64]
+%QcUart.DeviceDesc%=QcUart_Device, ACPI\QCOM2424
+
+[QcUart_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+qcuart8994.sys
+
+;-------------- Service installation
+[QcUart_Device.NT.Services]
+AddService = QCUART,%SPSVCINST_ASSOCSERVICE%, QcUart_Service_Inst
+
+; -------------- QcUart driver install sections
+[QcUart_Service_Inst]
+DisplayName    = %QcUart.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\qcuart8994.sys
+
+;
+;--- QcUart_Device Coinstaller installation ------
+;
+
+[QcUart_Device.NT.Wdf]
+KmdfService =  QcUart, QcUart_wdfsect
+[QcUart_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Qualcomm Technologies, Inc."
+DiskName = "Qualcomm UART Device Installation Disk"
+QcUart.DeviceDesc = "Qualcomm UART Device"
+QcUart.SVCDESC = "Qualcomm UART Driver"

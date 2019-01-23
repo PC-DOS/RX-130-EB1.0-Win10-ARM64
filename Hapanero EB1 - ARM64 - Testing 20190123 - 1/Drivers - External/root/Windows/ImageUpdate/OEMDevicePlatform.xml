@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OEMDevicePlatform xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate">
+    <MinSectorCount>33554432</MinSectorCount>
+    <AdditionalMainOSFreeSectorsRequest>0</AdditionalMainOSFreeSectorsRequest>
+    <DevicePlatformID>Qualcomm.MSM8994.P6170</DevicePlatformID>
+    <MainOSRTCDataReservedSectors>0</MainOSRTCDataReservedSectors>
+</OEMDevicePlatform>

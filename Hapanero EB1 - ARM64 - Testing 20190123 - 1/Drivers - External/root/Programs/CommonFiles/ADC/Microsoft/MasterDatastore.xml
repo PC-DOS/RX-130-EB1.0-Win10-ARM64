@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationSourceList Version="1.0">
+  <ConfigurationSource Name="Uicc_Connectivity" Path="$(_adc)\Microsoft\Uicc_Connectivity.xml">
+    <EventList>
+      <Event Name="Uicc_Connectivity" />
+    </EventList>
+  </ConfigurationSource>
+  <ConfigurationSource Name="Uicc_General" Path="$(_adc)\Microsoft\Uicc_General.xml">
+    <EventList>
+      <Event Name="Uicc_General" />
+    </EventList>
+  </ConfigurationSource>
+</ConfigurationSourceList>

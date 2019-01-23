@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PhoneSecurityPolicy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" HashType="Sha256" PackageID="Qualcomm.QC8994.QcShutdownSvc" xmlns="urn:Microsoft.WindowsPhone/PhoneSecurityPolicyInternal.v8.00">
+  <Components>
+    <Service ElementID="97FCFDE663A530DA377F8D01D7AF339D6AB7620286A9F72F02A0697ADEF25A98" OEMExtensible="No" AttributeHash="24D88F98AC45BEF7E196172D32139CE89A7E00F5DBB5D6E6F634A5FF4706AD6E" SID="S-1-5-80-2139466470-263513108-2458005736-1093359598-2009995690" Name="QCSHUTDOWNSVC" Executable="\WINDOWS\SYSTEM32\QCSHUTDOWNSVC8994.EXE" IsTCB="No" OwnedProc="Y">
+      <RequiredCapabilities>
+        <RequiredCapability CapId="S-1-5-21-2702878673-795188819-444038987-1039" />
+        <RequiredCapability CapId="S-1-5-21-2702878673-795188819-444038987-1031" />
+        <RequiredCapability CapId="S-1-5-21-2702878673-795188819-444038987-1033" />
+        <RequiredCapability CapId="S-1-5-21-2702878673-795188819-444038987-1447" />
+        <RequiredCapability CapId="S-1-5-21-2702878673-795188819-444038987-1035" />
+      </RequiredCapabilities>
+    </Service>
+  </Components>
+</PhoneSecurityPolicy>
