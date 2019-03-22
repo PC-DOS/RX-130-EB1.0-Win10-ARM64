@@ -1,0 +1,77 @@
+;
+; TouchPower.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ManufacturerName%
+CatalogFile=TouchPower.cat
+DriverVer = 05/12/2018,4.38.34.990
+
+[DestinationDirs]
+DefaultDestDir = 12
+TouchPower_Device_CoInstaller_CopyFiles = 11
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[SourceDisksFiles]
+TouchPower.sys = 1
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTARM64
+
+[Standard.NTARM64]
+%TouchPower.DeviceDesc%=TouchPower_Device, ACPI\MSHW1024
+
+[TouchPower_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+TouchPower.sys
+
+;-------------- Service installation
+[TouchPower_Device.NT.Services]
+AddService = TouchPower,%SPSVCINST_ASSOCSERVICE%, TouchPower_Service_Inst
+
+; -------------- TouchPower driver install sections
+[TouchPower_Service_Inst]
+DisplayName    = %TouchPower.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\TouchPower.sys
+
+;
+;--- TouchPower_Device Coinstaller installation ------
+;
+
+[TouchPower_Device.NT.CoInstallers]
+AddReg=TouchPower_Device_CoInstaller_AddReg
+CopyFiles=TouchPower_Device_CoInstaller_CopyFiles
+
+[TouchPower_Device_CoInstaller_AddReg]
+;
+
+
+[TouchPower_Device_CoInstaller_CopyFiles]
+;
+
+
+[TouchPower_Device.NT.Wdf]
+KmdfService =  TouchPower, TouchPower_wdfsect
+[TouchPower_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Little Moe LLC"
+DiskName = "TouchPower Installation Disk"
+TouchPower.DeviceDesc = "Touch Panel Power Stub Device"
+TouchPower.SVCDESC = "Touch Panel Power Stub Device Service"
