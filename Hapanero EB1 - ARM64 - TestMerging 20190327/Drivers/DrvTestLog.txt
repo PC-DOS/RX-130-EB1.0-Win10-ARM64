@@ -1,0 +1,32 @@
+---------- ------	INFO	Platform: Microsoft MDG RX-130, Codename Hapanero
+---------- ------	INFO	OS: 10.0.17134
+---------- ------	WARN	Battery: Qualcomm Battery Miniclass Driver cannot be started. Code 52.
+2019-04-05 122015	SUCCESS	Install: \Drivers\msm8994\Post-OOBE\Net\qcmbb.wp8994.inf
+2019-04-05 122140	SUCCESS	Install: \Drivers\msm8994\Post-OOBE\System\QcUsbFnSS8994.inf
+2019-04-05 122500	FAIL52	Install: \Drivers\msm8994\Pre-OOBE\Battery\qcbattminiclass8994.inf
+2019-04-05 122800	SUCCESS	Install: Qualcomm WWAN Coexistence Manager
+2019-04-05 123009	SUCCESS	Install: Qualcomm System MMU v2 Device
+2019-04-05 123120	SUCCESS	Install: Qualcomm System MMU v2 Device
+2019-04-05 123215	SUCCESS	Install: Qualcomm System MMU v2 Device
+2019-04-05 123255	SUCCESS	Install: Qualcomm System MMU v2 Device
+2019-04-05 123340	SUCCESS	Install: Qualcomm System MMU v2 Device
+2019-04-05 123437	SUCCESS	Install: Qualcomm System MMU v2 Device
+2019-04-05 123525	SUCCESS	Install: Qualcomm System MMU v2 Device
+2019-04-05 123215	SUCCESS	Install: Qualcomm Secure Channel Manager Device
+2019-04-05 123850	FAIL	Install: Qualcomm Shared Memory Port Device (\Drivers\msm8994\Pre-OOBE\System\qcsmd8994.inf)
+2019-04-05 124015	SUCCESS	Install: Qualcomm SPI Device
+2019-04-05 124127	SUCCESS	Install: Qualcomm Win8 rmnetbridge Device
+2019-04-05 124315	SUCCESS	Install: Qualcomm Camera Platform Device
+2019-04-05 124510	SUCCESS	Install: Qualcomm Camera Device
+2019-04-05 124645	SUCCESS	Install: Qualcomm HwnLed Device
+2019-04-05 124510	SUCCESS	Install: Qualcomm Haptics Device
+2019-04-05 124635	SUCCESS	Install: Qualcomm Win8 Remote AT Command Processor Device
+2019-04-05 125037	SUCCESS	Install: Qualcomm QMUX Device
+2019-04-05 125600	SUCCESS	Install: NOKIA Panel Driver
+2019-04-05 125700	SUCCESS	Install: Qualcomm BcryptCipher Device
+2019-04-05 125800	SUCCESS	Install: Qualcomm Reset Power Error Notifier Device
+2019-04-05 125910	SUCCESS	Install: Qualcomm Win8 revrmnet Device
+2019-04-05 125955	SUCCESS	Install: Qualcomm MipiBif WDF Driver
+2019-04-05 130100	CRITICAL	BSOD: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED
+2019-04-05 124510	CRITICAL	Battery: Battery level critically low. Recharge sequence engaged.
+

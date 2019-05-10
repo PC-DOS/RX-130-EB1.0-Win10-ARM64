@@ -1,0 +1,50 @@
+Install: Qualcomm System MMU v2 Device
+Install: Qualcomm System MMU v2 Device
+Install: Qualcomm System MMU v2 Device
+Install: Qualcomm System MMU v2 Device
+Install: Qualcomm System MMU v2 Device
+Install: Qualcomm System MMU v2 Device
+Install: Qualcomm System MMU v2 Device
+Install: Qualcomm Secure Channel Manager Device
+Install: Qualcomm Shared Memory Port Device
+Install: Qualcomm SPI Device
+Install: Qualcomm Win8 rmnetbridge Device
+Install: Qualcomm Camera Platform Device
+Install: Qualcomm Camera ISP Device
+Install: Qualcomm HwnLed Device
+Install: Qualcomm Haptics Device
+Install: Qualcomm Win8 Remote AT Command Processor Device
+Install: Qualcomm QMUX Device
+Install: Nokia Panel Driver
+Update: Microsoft Basic Display -> Qualcomm Adreno 430
+[REBOOT]
+BSOD: QcWLAN8994.sys, SYSTEM_THREAD_EXCEPTION_NOT_HANDLED
+[INFREBOOT]
+Remove: Qualcomm Adreno 430
+Install: Qualcomm BcryptCipher Device
+Install: Qualcomm Reset Power Error Notifier Device
+Install: Qualcomm Win8 revrmnet Device
+Install: Qualcom MipiBif WDF Driver
+BSOD: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED
+Fail: Qualcomm qcgnss Collection, Need dependent drivers
+Install: Qualcomm TrEE Device
+Install: Qualcomm QDSS Device
+Install: Qualcomm UART Device
+Install: Qualcomm UART Device
+Fail: QPDS-T900/QPDS-T930 Sensor, Need dependent drivers
+Install: Qualcomm IPC Router Device
+BSOD: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED
+Install: Qualcomm Camera Rear Sensor Driver
+Install: Qualcomm IPC Router Device
+Install: Qualcomm Camera Front Sensor Driver
+BSOD: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED
+Install: Ssm Driver
+Install: Qualcomm Atheros Bluetooth UART Transport Driver
+Install: Qualcomm ACPI Bridge Device
+Install: Qualcomm Win8 Modembridge Device
+Install: Qualcomm Diagnostic Router Device
+Install: QUALCOMM FM Transport Driver
+Install: Qualcomm Camera JPEG Encoder Driver
+Install: Qualcomm Diagnostic Bridge Device
+Install: Qualcomm Diagnostic Consumer Interface Device
+Install: Qualcomm Peripheral Image Loader Device

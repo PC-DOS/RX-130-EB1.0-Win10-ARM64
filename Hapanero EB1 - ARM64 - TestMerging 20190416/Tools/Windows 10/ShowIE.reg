@@ -1,0 +1,65 @@
+Windows Registry Editor Version 5.00
+
+; Use this tweak to add the IE icon to Desktop
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}]
+
+@="@ieframe.dll,-880"
+
+"InfoTip"="@,-881"
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\DefaultIcon]
+
+@="C:\\Windows\\System32\\ieframe.dll,-190"
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\InProcServer32]
+
+@="C:\\Windows\\System32\\ieframe.dll"
+
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\Open\Command]
+
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\""
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\InPrivate]
+
+@="@ieframe.dll,-13171"
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\InPrivate\Command]
+
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" -private"
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\ Ù–‘(R)]
+
+@="@ieframe.dll,1031"
+
+"Position"="bottom"
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\ Ù–‘(R)\command]
+
+@="rundll32.exe Shell32.dll,Control_RunDLL InetCpl.cpl,"
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\Shellex\ContextMenuHandlers\ieframe]
+
+@="{871C5380-42A0-1069-A2EA-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\Shellex\MayChangeDefaultMenu]
+
+@=""
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\ShellFolder]
+
+@="@ieframe.dll,-190"
+
+"HideAsDeletePerUser"=""
+
+"HideOnDesktopPerUser"=""
+
+"HideFolderVerbs"=""
+
+"WantsParseDisplayName"=""
+
+"Attributes"=dword:00000024
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{871C5380-42A0-1069-A2EA-08002B30301D}]

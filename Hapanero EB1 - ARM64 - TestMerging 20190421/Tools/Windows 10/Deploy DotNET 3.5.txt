@@ -1,0 +1,2 @@
+rem Change L: to the partition letter of your system installation disk
+dism.exe /online /enable-feature /featurename:netfx3 /Source:L:\sources\sxs
